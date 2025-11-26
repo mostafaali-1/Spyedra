@@ -53,7 +53,7 @@ const Benefits = () => {
                         </div>
                     </div>
 
-                    {/* Card 4: Half Width */}
+                   
                     <div className="benefit-card card-half" style={{ backgroundImage: `url(${benefitImg4})` }}>
                         <div className="card-overlay"></div>
                         <div className="card-content">
