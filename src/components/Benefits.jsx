@@ -17,7 +17,7 @@ const Benefits = () => {
                 </p>
 
                 <div className="benefits-grid">
-                    {/* Card 1: Full Width */}
+                    
                     <div className="benefit-card card-full" style={{ backgroundImage: `url(${benefitImg1})` }}>
                         <div className="card-overlay"></div>
                         <div className="card-content">
@@ -29,7 +29,7 @@ const Benefits = () => {
                         </div>
                     </div>
 
-                    {/* Card 2: Wide */}
+                    
                     <div className="benefit-card card-wide" style={{ backgroundImage: `url(${benefitImg2})` }}>
                         <div className="card-overlay"></div>
                         <div className="card-content">
@@ -41,7 +41,7 @@ const Benefits = () => {
                         </div>
                     </div>
 
-                    {/* Card 3: Narrow */}
+                    
                     <div className="benefit-card card-narrow" style={{ backgroundImage: `url(${benefitImg3})` }}>
                         <div className="card-overlay"></div>
                         <div className="card-content">
@@ -65,7 +65,7 @@ const Benefits = () => {
                         </div>
                     </div>
 
-                    {/* Card 5: Half Width */}
+                    
                     <div className="benefit-card card-half" style={{ backgroundImage: `url(${benefitImg5})` }}>
                         <div className="card-overlay"></div>
                         <div className="card-content">
