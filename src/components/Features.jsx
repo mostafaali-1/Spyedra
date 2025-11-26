@@ -34,7 +34,7 @@ const Features = () => {
 
     const scrollImages = [featureImg1, featureImg2, featureImg3, featureImg4, featureImg5];
 
-    // Auto-scroll Logic
+    
     const controls = useAnimation();
 
     useEffect(() => {
@@ -42,7 +42,7 @@ const Features = () => {
             await controls.start({
                 x: "-50%",
                 transition: {
-                    duration: 20, // Total duration for one full loop
+                    duration: 20, 
                     ease: "linear",
                     repeat: Infinity,
                     repeatType: "loop"
@@ -82,7 +82,7 @@ const Features = () => {
                         className="horizontal-scroll-track"
                         animate={controls}
                     >
-                        {/* Double the images to ensure enough length for scrolling effect */}
+                        
                         {[...scrollImages, ...scrollImages].map((img, index) => (
                             <div key={index} className="scroll-item">
                                 <img src={img} alt={`Feature Preview ${index + 1}`} />
