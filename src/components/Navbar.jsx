@@ -9,12 +9,12 @@ const Navbar = () => {
     const handleScroll = () => {
       const sections = ['home', 'features', 'benefits', 'contact'];
 
-      // Find the section that is currently most visible in the viewport
+      
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
-          // Check if the element is roughly in the middle of the viewport or near the top
+          
           return rect.top <= 150 && rect.bottom >= 150;
         }
         return false;
