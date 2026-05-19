@@ -1,0 +1,132 @@
+.footer-section {
+    position: relative;
+    background-color: #0C0617;
+    padding: 2.5rem 2rem;
+    overflow: hidden;
+    border-top: 1px solid rgba(233, 50, 255, 0.15);
+}
+
+.footer-accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #E932FF, #61FDFE, #E24EFF, transparent);
+    opacity: 0.7;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer-logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    background: linear-gradient(90deg, #E932FF, #61FDFE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-link:hover {
+    color: #61FDFE;
+}
+
+.footer-social {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(233, 50, 255, 0.2);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background: rgba(76, 3, 150, 0.4);
+    border-color: #FC7CFE;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(252, 124, 254, 0.3);
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1.25rem;
+    }
+
+    .footer-nav {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .footer-link {
+        font-size: 0.85rem;
+    }
+
+    .social-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-section {
+        padding: 1.5rem 1rem;
+    }
+
+    .footer-logo {
+        font-size: 1.2rem;
+    }
+
+    .footer-nav {
+        gap: 1rem;
+    }
+
+    .footer-link {
+        font-size: 0.8rem;
+    }
+}
