@@ -18,7 +18,7 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert('Message sent to Spydra!');
+        alert('Message sent to Spyedra!');
     };
 
     return (
@@ -32,7 +32,7 @@ const Contact = () => {
                         <br />monitor threats in real-time
                     </p>
                     <button className="contact-btn" onClick={handleContactClick}>Contact Us</button>
-                    <p className="contact-copyright">&copy;2025 Lift Media, spydra</p>
+                    <p className="contact-copyright">&copy;2025 Lift Media, spyedra</p>
                 </div>
             </section>
 
@@ -62,16 +62,16 @@ const Contact = () => {
                                 <input type="tel" placeholder="Phone Number" className="form-input form-input-full" />
                                 <textarea placeholder="Message" className="form-textarea" rows="4" required></textarea>
                                 <button type="submit" className="form-submit-btn">
-                                    Send it to spydra &nbsp;➤
+                                    Send it to spyedra &nbsp;➤
                                 </button>
                             </form>
                         </div>
 
                         <div className="getintouch-card-side">
-                            <div className="spydra-card">
+                            <div className="spyedra-card">
                             
-                                <div className="spydra-card-img-wrapper">
-                                    <img src={logoImg} alt="Spydra Spider" className="spydra-card-img" />
+                                <div className="spyedra-card-img-wrapper">
+                                    <img src={logoImg} alt="Spyedra Spider" className="spyedra-card-img" />
                                 </div>
                                
                             </div>

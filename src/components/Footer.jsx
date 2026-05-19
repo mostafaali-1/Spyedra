@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="footer-accent"></div>
 
             <div className="footer-container">
-                <div className="footer-logo">spydra</div>
+                <div className="footer-logo">spyedra</div>
 
                 <nav className="footer-nav">
                     <a href="#" className="footer-link">Team</a>

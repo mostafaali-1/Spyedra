@@ -290,7 +290,7 @@
     flex-shrink: 0;
 }
 
-.spydra-card {
+.spyedra-card {
     width: 300px;
     background: linear-gradient(160deg, #1a1230, #0d0a1a);
     border: 1px solid rgba(168, 85, 247, 0.2);
@@ -300,17 +300,17 @@
     transition: transform 0.3s ease;
 }
 
-.spydra-card:hover {
+.spyedra-card:hover {
     transform: translateY(-4px);
 }
 
-.spydra-card-img-wrapper {
+.spyedra-card-img-wrapper {
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.spydra-card-img {
+.spyedra-card-img {
     width: 100%;
     height: auto;
     display: block;
@@ -318,7 +318,7 @@
     transition: transform 0.4s ease;
 }
 
-.spydra-card:hover .spydra-card-img {
+.spyedra-card:hover .spyedra-card-img {
     transform: scale(1.05);
 }
 
@@ -333,7 +333,7 @@
         padding: 2.5rem;
     }
 
-    .spydra-card {
+    .spyedra-card {
         width: 260px;
     }
 }
@@ -372,7 +372,7 @@
         flex-direction: column;
     }
 
-    .spydra-card {
+    .spyedra-card {
         width: 100%;
         max-width: 350px;
     }
@@ -453,7 +453,7 @@
         padding: 0.75rem 1.5rem;
     }
 
-    .spydra-card {
+    .spyedra-card {
         padding: 1rem;
     }
 }

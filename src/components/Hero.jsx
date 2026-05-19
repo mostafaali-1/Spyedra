@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import laptopImg from '../assets/spydra_laptop.png';
+import laptopImg from '../assets/spyedra_laptop.png';
 
 const Hero = () => {
     return (
@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
 
             <div className="hero-image-container">
-                <img src={laptopImg} alt="Spydra Dashboard on Laptop" className="hero-laptop-img" />
+                <img src={laptopImg} alt="Spyedra Dashboard on Laptop" className="hero-laptop-img" />
             </div>
         </section>
     );
